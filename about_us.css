@@ -1,0 +1,138 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    text-align:center;
+    color:#fff;
+    line-height:1.5;
+    letter-spacing:1 px;
+}
+
+.banner{
+    width:100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url("https://images.unsplash.com/photo-1620325867502-221cfb5faa5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    width:85%;
+    margin:auto;
+    padding:35px 0;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom:2px;
+}
+
+.logo{
+    width:120px;
+    cursor:pointer;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin:0 20px;
+    font-size: 20px;
+    position:relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:antiquewhite;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content:'';
+    height:3px;
+    width:0%;
+    background:#009688;
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+}
+.navbar ul li:hover::after{
+    width:100%;
+
+}
+
+.wrapper{
+    min-height:100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoZSB2bmYaSmpnUTWCzdoLf_Mtuzc3KV73y9LIbQD8LI0qzycGdDFxdalGzRwVvyfo_js&usqp=CAU");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat
+}
+
+.content{
+    padding:30px 90px;
+
+}
+
+.content h1{
+    font-size:50px;
+    font-weight:700;
+    text-transform: uppercase;
+    font-style:italic ;
+    margin-bottom: 0.5px;
+    
+    
+
+
+
+}
+
+.content h1:after{
+   
+    height:5px;
+    width:225px;
+    background-color:#fff;
+    display:block;
+    margin:20px;
+
+}
+
+.content img{
+    height:250px;
+    width:250px;
+    border:2px solid #fff;
+    border-radius:100%;
+    margin-top:40px;
+
+}
+
+.content p{
+    font-family:sans-serif;
+    font-size:22px;
+    margin-top:30px;
+
+}
+
+.content h5{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top:30px;
+    font-style: italic;
+
+}
+
+p:hover{
+    font-size:25px;
+    font-style:italic;
+}
+
+h5:hover{
+    color:aquamarine;
+    font-style: italic;
+}
+
+h1:hover{
+    color:aquamarine;
+    font-style: italic;
+}

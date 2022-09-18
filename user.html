@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Todo List App in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="todolist.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+   
+    <div class="wrapper">
+      
+      <marquee bahavior="scroll" direction="left"><h1>WHAT IS YOUR PLAN FOR THE DAY 🤔</h1></marquee>
+      <div class="task-input">
+        
+       
+        <img src="https://www.i2symbol.com/images/text-symbols/check-symbol.png" alt="icon" width="30px" height="30px">
+        <input type="text" placeholder="Add a new task">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+
+    <script src="user.js"></script>
+
+  </body>
+</html>
